@@ -1,0 +1,94 @@
+body{
+  background-color: darkcyan;
+}
+#start div{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+h1, h2{
+  font-family: 'Franklin Gothic Medium';
+  color: cyan;
+  font-size: 5em;
+  text-align: center;
+  position: relative;
+}
+p{
+  font-family: 'Franklin Gothic Medium';
+  color: cyan;
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+}
+button{
+  font-family: 'Franklin Gothic Medium';
+  background-color: cyan;
+  font-size: 5em;
+  position: relative;
+  display: flex;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+button:hover {
+  cursor: pointer;
+}
+#gameScreenHidden{
+  position: absolute;
+  display: none;
+  top: 100%;
+  overflow: hidden;
+}
+h3{
+  font-family: 'Franklin Gothic Medium';
+  color: cyan;
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+}
+#game div{
+  border: 1px solid black;
+  width: 18%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#scoreScreenHidden div{
+  position: absolute;
+  display: none;
+  top: 100%;
+  overflow: hidden;
+}
+a{
+  font-family: 'Franklin Gothic Medium';
+  background-color: cyan;
+  color: black;
+  padding: 5px 10px;
+  margin: 10px 30px;
+  font-size: 5em;
+  position: relative;
+  display: none;
+  border: 2px solid black;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  font-family: 'Franklin Gothic Medium';
+  color: cyan;
+  font-size: 6em;
+  position: relative;
+  display: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
